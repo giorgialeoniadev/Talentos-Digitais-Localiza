@@ -87,7 +87,6 @@ class MovieLibrary extends Component {
     const filteredMovies = this.filterMovies(movies);
     return (
       <section>
-        <h2> My awesome movie library </h2>
         <SearchBar
           searchText={searchText}
           onSearchTextChange={this.setSearchedText}

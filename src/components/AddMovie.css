@@ -1,0 +1,29 @@
+.oneLineInputs {
+  border-radius: 3px;
+  width: 30vw;
+}
+
+.storylineInput {
+  border-radius: 3px;
+  width: 30vw;
+  height: 10vw;
+}
+
+.addBtn {
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.endingLabels {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ratingInput {
+  border-radius: 3px;
+  width: 5vw;
+}
+
+.addForm {
+  margin: 15px;
+}

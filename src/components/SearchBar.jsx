@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+import './SearchBar.css';
 
 class SearchBar extends Component {
   inputText(searchText) {
     const { onSearchTextChange } = this.props;
     return (
       <label htmlFor="InputText">
-        <p>Inclui o texto</p>
+        <p>Pesquise aqui</p>
         <input
           type="text"
           id="InputText"
+          className="searchInput"
           name="InputText"
           value={searchText}
           onChange={onSearchTextChange}
@@ -38,7 +40,7 @@ class SearchBar extends Component {
       <div>
         <label htmlFor="select">
           <p>Filtrar por gênero</p>
-          <select name="select" id="select" value={selectedGenre} onChange={onSelectedGenreChange}>
+          <select name="select" id="select" className="genreSel" value={selectedGenre} onChange={onSelectedGenreChange}>
             <option value="">Todos</option>
             <option value="action">Ação</option>
             <option value="comedy">Comédia</option>
@@ -53,7 +55,7 @@ class SearchBar extends Component {
   render() {
     const { searchText, bookmarkedOnly, selectedGenre } = this.props;
     return (
-      <div>
+      <div className="searchForm">
         <form>
           {this.inputText(searchText)}
           <br />

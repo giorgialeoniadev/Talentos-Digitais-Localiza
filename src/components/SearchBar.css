@@ -1,0 +1,13 @@
+.searchForm {
+  margin: 15px;
+}
+
+.searchInput {
+  border-radius: 3px;
+  width: 75vw;
+}
+
+.genreSel {
+  border-radius: 3px;
+  width: 75vw;
+}

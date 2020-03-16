@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Talentos-Digitais-Localiza/static/css/main.5d58c8a2.chunk.css",
+    "main.js": "/Talentos-Digitais-Localiza/static/js/main.be8a1e13.chunk.js",
+    "main.js.map": "/Talentos-Digitais-Localiza/static/js/main.be8a1e13.chunk.js.map",
+    "runtime-main.js": "/Talentos-Digitais-Localiza/static/js/runtime-main.50c2b543.js",
+    "runtime-main.js.map": "/Talentos-Digitais-Localiza/static/js/runtime-main.50c2b543.js.map",
+    "static/js/2.7817102d.chunk.js": "/Talentos-Digitais-Localiza/static/js/2.7817102d.chunk.js",
+    "static/js/2.7817102d.chunk.js.map": "/Talentos-Digitais-Localiza/static/js/2.7817102d.chunk.js.map",
+    "index.html": "/Talentos-Digitais-Localiza/index.html",
+    "precache-manifest.b60bf96173ce7d741fd5f44d3bb08981.js": "/Talentos-Digitais-Localiza/precache-manifest.b60bf96173ce7d741fd5f44d3bb08981.js",
+    "service-worker.js": "/Talentos-Digitais-Localiza/service-worker.js",
+    "static/css/main.5d58c8a2.chunk.css.map": "/Talentos-Digitais-Localiza/static/css/main.5d58c8a2.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50c2b543.js",
+    "static/js/2.7817102d.chunk.js",
+    "static/css/main.5d58c8a2.chunk.css",
+    "static/js/main.be8a1e13.chunk.js"
+  ]
+}
